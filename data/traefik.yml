@@ -22,15 +22,20 @@ http:
         permanent: false
 
 providers:
-  docker:
-    endpoint: "unix:///var/run/docker.sock"
-    exposedByDefault: false
+  docker: true
 
 certificatesResolvers:
   letsEncrypt:
     acme:
-      email: postmaster@mitlonik.com
+      email: postmaster@domain.com
       storage: acme.json
       caServer: "https://acme-staging-v02.api.letsencrypt.org/directory"
       httpChallenge:
         entryPoint: http
+
+tls:
+  options:
+    default:
+      sniStrict: true
+log:
+  level: DEBUG

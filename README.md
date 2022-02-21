@@ -19,3 +19,6 @@ Traefik. Оно идеально подходит для проксирован�
 5. https://www.digitalocean.com/community/tutorials/how-to-use-traefik-as-a-reverse-proxy-for-docker-containers-on-ubuntu-18-04-ru
 6. https://techsch.com/tutorials/multiple-websites-jwilder-nginx-proxy-letsencrypt + traefik
 7. полезное чтиво https://habr.com/ru/post/526440/
+8. https://hollo.me/devops/routing-to-multiple-docker-compose-development-setups-with-traefik.html
+9. https://dockerswarm.rocks/traefik/
+10. Traefik, как обратный прокси в Docker - https://gist.github.com/dancheskus/365e9bc49a73908302af19882a86ce52
